@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap');
+
+body{
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    background-color: white;
+}
+
+.mobile{
+    display: none;
+}
+.imgs{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: hsl(273, 4%, 51%);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.blog{
+    margin: auto 1.5rem;
+}
+button{
+    cursor: pointer;
+    padding: .5rem 1.15rem;
+    text-transform: uppercase;
+    border: 2px solid black;
+    font-weight: 400;
+    color: hsl(273, 4%, 51%);
+}
+.view-btn{
+    background-color: white;
+    margin-left: 1.5rem;
+}
+.view-btn:hover{
+    background-color: black;
+    color: white;
+    font-weight: 700;
+}
+.plan-btn{
+    border-color: white;
+    margin: 2rem 0 6rem 0;
+    background-color: hsl(256, 26%, 20%);
+    color: white;
+}
+.plan-btn:hover{
+    background-color: white;
+    color: hsl(270, 9%, 17%);
+    font-weight: 700;
+}
+.work-btn{
+    border-color: white;
+    background-color: hsl(256, 26%, 20%);
+    color: white;
+}
+.work-btn:hover{
+    background-color: white;
+    color: hsl(270, 9%, 17%);
+    font-weight: 700;
+}
+hr.desktop{
+    width: 40%;
+    margin: 0;
+}
+.human-par{
+    line-height: 35px;
+    color: hsl(273, 4%, 51%);
+    font-weight: 700;
+}
+.hup{
+    color: white;
+}
+
+nav{
+    margin: 2rem 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-btn{
+    cursor: pointer;
+}
+.close{
+    display: none;
+}
+.hide{
+   display: none; 
+}
+.show{
+    display: block;
+}
+.header{
+    background-color: white;
+    margin: 0;
+    padding: 2rem 1.5rem;
+}
+.body-mobile{
+    background-color: hsl(270, 9%, 17%);
+}
+.menu-content{
+    text-align: center;
+    padding: 3rem 0;
+}
+.menu-content p a{
+    color: white;
+}
+.menu-content p a:hover{
+    text-decoration: underline;
+}
+.mobile-menu{
+    background-color: hsl(270, 9%, 17%);
+}
+.menu-view{
+    width: 70%;
+    color: white;
+    border-color: white;
+    background-color: hsl(270, 9%, 17%);
+    margin: 1rem auto;
+}
+.menu-view:hover{
+    background-color: white;
+    color: black;
+}
+.mob-blog{
+    margin: 2rem auto;
+}
+
+.nav-links a:hover{
+    color: hsl(270, 9%, 17%);
+}
+
+main{
+    position: relative;
+}
+.humanizing{
+    background-color: hsl(256, 26%, 20%);
+    background-image: url("./images/bg-pattern-intro-right-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: right;
+}
+.human-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 6rem;
+}
+.heads{
+    color: white;
+    font-size: 55px;
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    line-height: 45px;
+}
+.hds{
+    font-size: 30px;
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    line-height: 45px;
+}
+.hd{
+    font-size: 55px;
+}
+.human-texts{
+    color: white;
+    margin-top: 7rem;
+    padding-right: 1rem;
+}
+.human-texts, .intro-desk{
+    width: 50%;
+}
+.intro-desk{
+    position: relative;
+    bottom: -7rem;
+    left: 0;
+}
+.different{
+    background-image: url("./images/bg-pattern-intro-left-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.diff-contents{
+    padding: 10rem 6rem 4rem 6rem;
+}
+.diff-hr{
+    width: 15%;
+    margin: 0;
+}
+.services{
+    display: flex;
+    justify-content: space-between;
+}
+.prices{
+    margin: auto 1.5rem;
+}
+.work{
+    margin: 6rem 0;
+    background-color: hsl(256, 26%, 20%);
+    background-image: url("./images/bg-pattern-how-we-work-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: right;
+}
+.work-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto 3.5rem;
+}
+.work-link, .work-parg{
+    width: 50%;
+}
+.work-btn{
+    float: right;
+}
+
+footer{
+    background-image: url("./images/bg-pattern-footer-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: hsl(0, 0%, 98%);
+}
+.twitt{
+    margin: auto 1rem;
+}
+.insta{
+    margin-left: 1rem;
+}
+.foot-service p a{
+    color: hsl(270, 9%, 17%);
+}
+.foot-service p a:hover{
+    text-decoration: underline;
+}
+.foot-serv-head{
+    text-transform: uppercase;
+    font-size: 16px;
+    color: hsl(273, 4%, 51%);
+    font-weight: 700;
+    margin: 2rem auto;
+}
+.footer-content{
+    padding: 4rem 6rem;
+}
+.foot-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0;
+}
+.foot-nav-links a img:hover{
+    background-color: hsl(270, 9%, 17%);
+}
+.foot-services{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 560px){
+    .mobile{
+        display: block;
+    }
+    .desktop{
+        display: none;
+    }
+    nav{
+        margin: 2rem 1.5rem;
+    }
+    .humanizing{
+        background-image: url("./images/bg-pattern-intro-right-mobile.svg");
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: left;
+    }
+    .human-content{
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+    .human-texts{
+        text-align: center;
+        width: auto;
+        padding: 0 1rem;
+        margin-top: 0;
+    }
+    .hd, .heads{
+        font-size: 45px;
+    }
+    .different{
+        background-image: url("./images/bg-pattern-intro-left-mobile.svg");
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+    .diff-contents{
+        padding: 7rem 1.5rem 4rem 1.5rem;
+    }
+    .diff-hr{
+        width: 30%;
+    }
+    .diff-services{
+        text-align: center;
+    }
+    .diff-hr{
+        margin: auto;
+    }
+    .services{
+        flex-direction: column;
+        align-items: center;
+    }
+    .prices{
+        margin: auto;
+    }
+    .work{
+        background-image: url("./images/bg-pattern-how-we-work-mobile.svg");
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+    .work-content{
+        flex-direction: column;
+        text-align: center;
+        margin: auto 1.5rem;
+    }
+    .work-btn{
+        margin: 1.5rem auto 5rem auto;
+    }
+    .work-link, .work-parg{
+        width: auto;
+    }
+    footer{
+        background-image: url("./images/bg-pattern-footer-mobile.svg");
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+    .footer-content{
+        padding: 4rem 1.5rem;
+    }
+    .foot-nav{
+        flex-direction: column;
+        margin: .5rem auto;
+    }
+    .foot-nav-links{
+        margin: 1.5rem auto 2rem auto;
+    }
+    .foot-services{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
